@@ -1,0 +1,21 @@
+#screen-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#screen-container > div:nth-child(1){
+    width: 40vw;
+}
+
+#screen-container > div > h2 {
+    text-align: center;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
